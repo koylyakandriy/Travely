@@ -1,0 +1,81 @@
+/* exemple how add fonts
+	@font-face{
+		font-family: Releway;
+		font-weight: 900;
+		src: url(../fonts/Raleway-Black.ttf) format("ttf");
+	@font-face{
+	font-family: Releway;
+	font-weight: 800;
+	src: url(../fonts/Raleway-Bold.ttf) format("ttf");
+}
+@font-face{
+	font-family: Releway;
+	font-weight: 700;
+	src: url(../fonts/Raleway-ExtraBold.ttf) format("ttf");
+}
+@font-face{
+	font-family: Releway;
+	font-weight: 400;
+	src: url(../fonts/Raleway-Regular.ttf) format("ttf");
+}
+@font-face{
+	font-family: Releway;
+	font-weight: 300;
+	src: url(../fonts/Raleway-Light.ttf) format("ttf");
+}
+} */
+
+
+body{
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
