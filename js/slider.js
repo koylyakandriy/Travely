@@ -2,13 +2,14 @@
 	"use strict";
 
 	jQuery(document).ready(function($) {
-			$('.slide').slick({
-			  dots: true,
+			$('.slider').slick({
+			  dots: false,
 			  infinite: true,
 			  speed: 300,
-			  slidesToShow: 3,
+			  slidesToShow: 1,
 			  centerMode: false,
-			  variableWidth: false
+			  variableWidth: false,
+			  autoplay: true
 			});
 		});
 })(jQuery);
